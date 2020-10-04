@@ -25,6 +25,9 @@ dependencies:
     sdk: flutter
 
   google_fonts:
+  http:
+  flutter_stetho:
+  step_progress_indicator: ^0.2.4+7
 
 
   # The following adds the Cupertino Icons font to your application.
