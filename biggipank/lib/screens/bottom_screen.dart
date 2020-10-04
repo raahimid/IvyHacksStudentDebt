@@ -1,3 +1,4 @@
+import 'package:biggipank/screens/salary_screen.dart';
 import 'package:flutter/material.dart';
 import 'screens.dart';
 
@@ -5,12 +6,11 @@ class BottomNavScreen extends StatefulWidget {
   @override
   _BottomNavScreenState createState() => _BottomNavScreenState();
 }
-
 class _BottomNavScreenState extends State<BottomNavScreen> {
   final List _screens = [
     HomeScreen(),
     ExpenseScreen(),
-    Scaffold(),
+    SalaryScreen(),
     Scaffold(),
   ];
   int _currentIndex = 0;

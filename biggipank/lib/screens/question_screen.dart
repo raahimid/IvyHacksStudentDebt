@@ -11,11 +11,12 @@ class QuestionScreen extends StatefulWidget {
 
 class _QuestionScreenState extends State<QuestionScreen> {
   @override
+  // ignore: override_on_non_overriding_member
   final String url = "https://ivyhacks.herokuapp.com/names";
   List data = [];
   String _selectedSchool;
 
-  Future<String> getSWData() async {
+  Future<void> getSWData() async {
     var res = await http
         .get(Uri.encodeFull(url), headers: {"Accept": "application/json"});
     var resBody = json.decode(res.body);
