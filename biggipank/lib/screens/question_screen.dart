@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomeScreen extends StatefulWidget {
+class QuestionScreen extends StatefulWidget {
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _QuestionScreenState createState() => _QuestionScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _QuestionScreenState extends State<QuestionScreen> {
   @override
   String dropdownValue = "Florida International University";
   Widget build(BuildContext context) {
